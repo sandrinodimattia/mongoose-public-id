@@ -1,8 +1,8 @@
 {
   "name": "mongoose-public-id",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generates a public ID for your models which you can expose in your API (similar to Stripe).",
-  "main": "/src/index.js",
+  "main": "./src/index.js",
   "repository": "https://github.com/sandrinodimattia/mongoose-public-id",
   "author": "Sandrino Di Mattia",
   "license": "MIT",
