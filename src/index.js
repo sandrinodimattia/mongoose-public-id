@@ -29,8 +29,7 @@ module.exports = function MongoosePublicId(schema, options) {
 
   const field = { };
   field[options.fieldName] = {
-    type: String,
-    required: true
+    type: String
   };
   schema.add(field);
 
