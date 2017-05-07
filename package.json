@@ -1,0 +1,25 @@
+{
+  "name": "mongoose-public-id",
+  "version": "1.0.0",
+  "description": "Public ID",
+  "main": "index.js",
+  "repository": "https://github.com/sandrinodimattia",
+  "author": "Sandrino Di Mattia",
+  "license": "MIT",
+  "dependencies": {
+    "hashids": "^1.1.1"
+  },
+  "scripts": {
+    "test": "eslint --ignore-path .gitignore . && nyc ava",
+    "test:watch": "ava --watch",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "coveralls": "^2.13.1",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.1.3",
+    "eslint-plugin-import": "^2.2.0",
+    "nyc": "^10.3.2"
+  }
+}
