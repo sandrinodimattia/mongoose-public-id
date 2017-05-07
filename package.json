@@ -1,18 +1,18 @@
 {
   "name": "mongoose-public-id",
   "version": "1.0.0",
-  "description": "Public ID",
-  "main": "index.js",
-  "repository": "https://github.com/sandrinodimattia",
+  "description": "Generates a public ID for your models which you can expose in your API (similar to Stripe).",
+  "main": "/src/index.js",
+  "repository": "https://github.com/sandrinodimattia/mongoose-public-id",
   "author": "Sandrino Di Mattia",
   "license": "MIT",
-  "dependencies": {
-    "hashids": "^1.1.1"
-  },
   "scripts": {
     "test": "eslint --ignore-path .gitignore . && nyc ava",
     "test:watch": "ava --watch",
     "coveralls": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "dependencies": {
+    "hashids": "^1.1.1"
   },
   "devDependencies": {
     "ava": "^0.19.1",
